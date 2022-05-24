@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Theme from './Components/Home/menu';
 import './index.css';
+import RouterApp from './routes';
 
 
 
@@ -10,7 +10,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Theme />
+    <RouterApp />
+
   </React.StrictMode>
 );
 
