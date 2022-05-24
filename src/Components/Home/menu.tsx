@@ -1,5 +1,3 @@
-import video from '../../assets/Menu_Theme.mp4';
-
 
 const Theme = () => {
   return (
@@ -19,7 +17,7 @@ const Theme = () => {
           zIndex: "-1"
         }}
       >
-        <source src={video} type="video/mp4" />
+        <source src='../../assets/Menu_Theme.mp4' type="video/mp4" />
       </video>
     </div>
   )
