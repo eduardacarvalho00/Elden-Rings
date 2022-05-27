@@ -1,11 +1,10 @@
-import Header from "../Header";
 import { Container, Content } from "./styles";
 import img from "../../assets/image_about.jpg";
 
 export default function About() {
   return (
     <Container>
-      <Content id="menu">
+      <Content>
         <h1>Elden Ring</h1>
         <p>
           Elden Ring (エルデンリング Eruden Ringu?) é um jogo eletrônico de RPG de ação desenvolvido pela FromSoftware e publicado pela Bandai Namco Entertainment. O jogo é um projeto colaborativo entre o diretor Hidetaka Miyazaki e o romancista de fantasia George R. R. Martin. Foi lançado em 25 de fevereiro de 2022 para Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One e Xbox Series X/S.

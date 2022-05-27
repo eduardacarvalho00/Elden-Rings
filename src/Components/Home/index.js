@@ -5,7 +5,7 @@ const Theme = () => {
   return ( 
     <div>
     
-    <Link to = '/menu'>
+    <Link to = '/about'>
     <video width = "100%"
     height = "100%"
     loop autoPlay style = {
