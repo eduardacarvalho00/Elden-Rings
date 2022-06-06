@@ -4,6 +4,7 @@ import About from './Components/About';
 import History from './Components/History';
 import Curiosity from './Components/Curiosity';
 
+
 export default function RouterApp() {
   return (
     <Router>
@@ -16,4 +17,6 @@ export default function RouterApp() {
     </Router>
   )
 }
+
+
 
